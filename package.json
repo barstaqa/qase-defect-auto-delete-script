@@ -1,0 +1,19 @@
+{
+  "name": "qase-defect-auto-delete-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/barstaqa/qase-defect-auto-delete-script.git",
+  "author": "Bartosz Stachowski <bartek.stachowski@epcnetwork.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc deleteDefects.ts && node deleteDefects.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
